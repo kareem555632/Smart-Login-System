@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.login,
+.signUp,
+.home{
+    background-color:#24353f ;
+}
+
+.login .container h1,
+.signUp .container h1{
+    color:#1b8193 ;
+}
+
+.login .container,
+.signUp .container,
+.home .container{
+    width: 800px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login .container input,
+.signUp .container input{
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+}

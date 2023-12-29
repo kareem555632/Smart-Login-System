@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <!-- google fonts -->
+    <!-- font awsone -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css file -->
+<link rel="stylesheet" href="css/index-style.css">
+<!-- css media -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body cz-shortcut-listen="true">
+  
+  <section class="vh-100 login d-flex justify-content-center align-items-center">
+    <div class="container p-5">
+        <h1 class="text-center mb-5">Smart Login System</h1>
+        <form class="mb-3">
+            <div class="parent mb-4">
+                <input type="email" placeholder="Enter Your E-mail" class="mb-2 form-control" id="loginMail">
+                <small class="alert alert-danger d-none p-1 fs-6 ">Error Message</small>
+            </div>
+            <div class="parent mb-4">
+                <input type="password" placeholder="Enter Your Password" class="mb-2 form-control" id="loginPassword">
+                <small class="alert alert-danger d-none p-1 fs-6 ">Error Message</small>
+            </div>
+            <p id="invaild" class="text-center w-100 d-none"><small class="alert d-block alert-danger p-1 w-100">invalid Email or Password</small></p>
+            <button id="loginBtn" class="btn btn-outline-info form-control">Login</button>
+        </form>
+        <p class="text-white text-center lead">Don't Have Account <span><a href="SignUp.html" class="text-white">SignUp</a></span></p>
+    </div>
+</section>
+  
+    <!-- Bootstrap JavaScript  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- =============> start java script -->
+    <script src="js/index.js"></script>
+    <!-- ===================================> end java script -->
+</body>
+</html>
